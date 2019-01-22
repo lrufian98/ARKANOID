@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PantallaInicio.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PantallaSeleccionNivel.unity
+    guid: d8a60ced84a2a1f408eefc40c6a42680
+  - enabled: 1
+    path: Assets/Scenes/PantallaAjustes.unity
+    guid: 48de11b20b959bf4ea3d11180f6af4c2
   m_configObjects: {}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59013adb8632f4640bdeeef339f65a0e
+guid: 229acae292c3b3b4787ddc09e82441ae
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -69,51 +69,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: 0, y: 61}
-      - {x: -23.34369, y: 56.35665}
-      - {x: -43.133514, y: 43.133514}
-      - {x: -56.35665, y: 23.343689}
-      - {x: -61, y: -0.0000026663947}
-      - {x: -56.35665, y: -23.343695}
-      - {x: -43.133514, y: -43.133514}
-      - {x: -23.343693, y: -56.35665}
-      - {x: -0.000009210744, y: -61}
-      - {x: 23.343676, y: -56.35666}
-      - {x: 43.133503, y: -43.133526}
-      - {x: 56.35665, y: -23.343699}
-      - {x: 61, y: 0.0000007274177}
-      - {x: 56.356647, y: 23.3437}
-      - {x: 43.1335, y: 43.133526}
-      - {x: 23.343662, y: 56.356663}
+    outline: []
     physicsShape: []
     bones: []
-    spriteID: 76db03c7ab4cc164face53bcbdfe3a85
+    spriteID: 3251220de1ac6d64ca0c2ce153e4783d
     vertices: []
     indices: 
     edges: []
