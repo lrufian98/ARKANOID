@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756948b9a8709f3418419be727e70776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bolasRecogidas: 00000000000000000000000000000000
+  bolasRecogidas: 02000000
   prefabsBolas:
   - {fileID: 9126798658270588283, guid: a84af1044a6c29b4b876d27add24cf3c, type: 3}
   - {fileID: 21893944089433719, guid: ea83f8e5026941443af273d7a3e232c2, type: 3}

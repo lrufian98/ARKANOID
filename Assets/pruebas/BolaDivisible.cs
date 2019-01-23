@@ -9,6 +9,7 @@ public class BolaDivisible : MonoBehaviour
     public float velocidad = 100;
     public GameObject division;
     Rigidbody2D rbDivision;
+    Vector2 guardarVelocidad;
 
     // Start is called before the first frame update
     void Start()
@@ -17,8 +18,8 @@ public class BolaDivisible : MonoBehaviour
         colliderBola = GetComponent<CircleCollider2D>();
         //rb.AddForce(Vector2.up * velocidad);
         colliderBola.isTrigger = false;
-        
 
+        guardarVelocidad = rb.velocity;
     }
 
 
@@ -27,9 +28,13 @@ public class BolaDivisible : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Bloque"))
         {
-            Instantiate(division, transform.position, transform.rotation);
-            rbDivision = division.gameObject.GetComponent<Rigidbody2D>();
-            rbDivision.AddForce(Vector2.down*velocidad);
+            for (int i = 0; i < 2; i++)
+            {
+                Instantiate(division, transform.position, transform.rotation);
+                rbDivision = division.gameObject.GetComponent<Rigidbody2D>();
+                rbDivision.velocity = guardarVelocidad;
+            }
+            
             
             Destroy(col.gameObject);
             Destroy(gameObject);
