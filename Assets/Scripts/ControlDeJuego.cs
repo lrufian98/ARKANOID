@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ControlDeJuego : MonoBehaviour
 {
 
-    public static bool nivel1Completo= false;
+    public static bool nivel1Completo = false;
     public static bool nivel2Completo = false;
     public static bool nivel3Completo = false;
 
