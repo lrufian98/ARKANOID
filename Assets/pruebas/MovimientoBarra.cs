@@ -11,7 +11,8 @@ public class MovimientoBarra : MonoBehaviour
     public GameObject salidaBola;
     public List<GameObject> bolasLanzadas;
     public GameObject puntoApuntar;
-    public bool apuntando;
+    public bool apuntando = true
+        ;
     public float velocidad = 100;
     public float tiempoEntreBolas = 0.2f;
     
@@ -23,7 +24,7 @@ public class MovimientoBarra : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        apuntando = true;
+        
     }
 
     // Update is called once per frame
@@ -106,7 +107,7 @@ public class MovimientoBarra : MonoBehaviour
         }
         if (apuntando)
         {
-            puntoApuntar.transform.position = Vector2.MoveTowards(transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), 0.5f);
+            puntoApuntar.transform.position = Vector2.MoveTowards(puntoApuntar.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), 0.5f);
         }
     }
     private void OnMouseUp()
