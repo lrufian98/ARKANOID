@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 8924fdb48e202294b9280b48c033fb3a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BloqueRompiendose_Sprite_0
+    21300002: BloqueRompiendose_Sprite_1
+    21300004: BloqueRompiendose_Sprite_2
+    21300006: BloqueRompiendose_Sprite_3
+    21300008: BloqueRompiendose_Sprite_4
+    21300010: BloqueRompiendose_Sprite_5
+    21300012: BloqueRompiendose_Sprite_6
+    21300014: BloqueRompiendose_Sprite_7
+    21300016: BloqueRompiendose_Sprite_8
+    21300018: BloqueRompiendose_Sprite_9
+    21300020: BloqueRompiendose_Sprite_10
+    21300022: BloqueRompiendose_Sprite_11
+    21300024: BloqueRompiendose_Sprite_12
+    21300026: BloqueRompiendose_Sprite_13
+    21300028: BloqueRompiendose_Sprite_14
+    21300030: BloqueRompiendose_Sprite_15
+    21300032: BloqueRompiendose_Sprite_16
+    21300034: BloqueRompiendose_Sprite_17
+    21300036: BloqueRompiendose_Sprite_18
+    21300038: BloqueRompiendose_Sprite_19
+    21300040: BloqueRompiendose_Sprite_20
+    21300042: BloqueRompiendose_Sprite_21
+    21300044: BloqueRompiendose_Sprite_22
+    21300046: BloqueRompiendose_Sprite_23
+    21300048: BloqueRompiendose_Sprite_24
+    21300050: BloqueRompiendose_Sprite_25
+    21300052: BloqueRompiendose_Sprite_26
+    21300054: BloqueRompiendose_Sprite_27
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f712820012934aaeaafd908401a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3edd6741d32a249bd45a045b3f48a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d9b3485e0fddc48aecb9d0bd4351d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f026592de2018c45bcc83b26eda105e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050d7f72b57f15b48a075638c6dccb93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b473be360525154eabe13397f52a2c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256d08fa7f9c3f41b255095f4b41ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 1140
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb9062cfded1ea4795f924ace3672e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493cbcd6452511e4fa1cc044b3485d0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a7769ec613da84ba14239c912571a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023b029f68564744abbb435bd8a1355a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed61de5361d2e34f9355d470bc2784f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e8fe396eaa3464f9933e3a51e1b683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da005158f527ac4e8847fa94a4ca7ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbea005c92a66046baa960413c71204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 760
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f913d33f708b55340961352d72b18eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af78f0b16280254fac8b11ebfb30047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c268bfd2b75e429fcbce8c0c6d9e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd72cb370e3c59945aa6106cbd5aa92d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e5ae37bb7c9fb4eb07b78a45899c91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b5830d2f55b64f81085e64943b37a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8fa243c71d81145bef0e0e19f67263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8eb4bb2a8e4d2459369b96ba38b46a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 380
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d48285124d80640849d20ae7cf3c74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d02085144ce6045be83a2b99a12fd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa0cc0093f78544adf3d8a0f7f6c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf251cc0930677a4a90ebd9e657e6f07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueRompiendose_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 0
+        width: 614
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9348c83b6a2c96a43ba9f5f5a3e8e8ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: af93d93a002d5384aabda615925918d7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
