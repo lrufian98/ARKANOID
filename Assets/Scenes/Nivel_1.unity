@@ -233,8 +233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96d8186f10f26554c800cf0f22c18956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelPausa: {fileID: 647205473}
-  pausa: 0
 --- !u!1 &67088365
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +326,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 67088369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 368823100}
+        m_MethodName: AnadirExplosiva
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &67088369
@@ -1022,6 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368823101}
   - component: {fileID: 368823100}
+  - component: {fileID: 368823102}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -1041,8 +1051,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f88853722db11a4aa9874a206e3652b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelPausa: {fileID: 647205473}
+  pausa: 0
+  scriptControl: {fileID: 1463532803}
   bloquesTotales: {fileID: 468753979}
   bloquesActuales: {fileID: 1294403462}
+  bolasTotales: {fileID: 1245883902}
 --- !u!4 &368823101
 Transform:
   m_ObjectHideFlags: 0
@@ -1059,6 +1073,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &368823102
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368823099}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.69476056, y: -6.401725}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.749106, y: 0.5037441}
+  m_EdgeRadius: 0
 --- !u!1 &373478972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,7 +2146,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 41354300}
+      - m_Target: {fileID: 368823100}
         m_MethodName: MenuPausa
         m_Mode: 1
         m_Arguments:
@@ -2695,6 +2735,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.23
       objectReference: {fileID: 0}
+    - target: {fileID: 8570353050516810848, guid: cdb94ca1dccdaea4e95aab7cc4d18e8c,
+        type: 3}
+      propertyPath: bolasRecogidas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570353050516810848, guid: cdb94ca1dccdaea4e95aab7cc4d18e8c,
+        type: 3}
+      propertyPath: bolasRecogidas.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570353050516810848, guid: cdb94ca1dccdaea4e95aab7cc4d18e8c,
+        type: 3}
+      propertyPath: tiempoEntreBolas
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb94ca1dccdaea4e95aab7cc4d18e8c, type: 3}
 --- !u!1001 &898532201
@@ -3238,7 +3293,7 @@ GameObject:
   - component: {fileID: 1245883903}
   - component: {fileID: 1245883902}
   m_Layer: 5
-  m_Name: Text
+  m_Name: BolasTotales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4012,7 +4067,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1334928204}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 368823100}
+        m_MethodName: AnadirDivisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1334928204
@@ -4221,7 +4287,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1422685416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 368823100}
+        m_MethodName: AnadirAfilada
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1422685416
@@ -4336,6 +4413,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1458127289}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463532803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8570353050516810848, guid: cdb94ca1dccdaea4e95aab7cc4d18e8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 895068646}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756948b9a8709f3418419be727e70776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517068884
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,8 +18,9 @@ public class MovimientoBarra : MonoBehaviour
     public GameObject pj;
     Animator pjAnimator;
 
-    
-    
+    public int cantidadBolas;
+
+
 
 
     // Start is called before the first frame update
@@ -73,13 +74,15 @@ public class MovimientoBarra : MonoBehaviour
         if(bolasLanzadas.Count == 0)
         {
             bolasRecogidas.Add(0); 
+            cantidadBolas = bolasRecogidas.Count;
+            ControlDeNivel.usoBotones++;
         }
 
     }
 
     IEnumerator LanzaBolas()
     {
-        int cantidadBolas = bolasRecogidas.Count;
+        cantidadBolas = bolasRecogidas.Count;
         pjAnimator.SetTrigger("lanzamiento");
 
         for (int i = 0; i < cantidadBolas; i++)
