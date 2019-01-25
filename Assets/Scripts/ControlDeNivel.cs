@@ -21,6 +21,9 @@ public class ControlDeNivel : MonoBehaviour
     int usoAfilada;
     int usoDivisible;
 
+    public GameObject panelCompletado;
+    Animator animCompletado;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +31,13 @@ public class ControlDeNivel : MonoBehaviour
         numeroBloques = GameObject.FindGameObjectsWithTag("Bloque").Length;
         bloquesTotales.text = ""+ numeroBloques;
         animPausa = panelPausa.GetComponent<Animator>();
+
         usoBotones = 1;
         usoExplosiva = 1;
         usoAfilada = 1;
         usoDivisible = 1;
 
+        animCompletado = panelCompletado.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -42,8 +47,20 @@ public class ControlDeNivel : MonoBehaviour
         bloquesActuales.text = "" + GameObject.FindGameObjectsWithTag("Bloque").Length;
         if(GameObject.FindGameObjectsWithTag("Bloque").Length == 0)
         {
-            ControlDeJuego.nivel1Completo = true;
+            if (SceneManager.GetActiveScene().name == "Nivel_1")
+            {
+                ControlDeJuego.nivel1Completo = true;
+            }
+            if(SceneManager.GetActiveScene().name == "Nivel_2")
+            {
+                ControlDeJuego.nivel2Completo = true;
+            }
+            if(SceneManager.GetActiveScene().name == "Nivel_3")
+            {
+                ControlDeJuego.nivel3Completo = true;
+            }
             
+            animCompletado.SetTrigger("NivelCompletado");
         }
         
         bolasTotales.text = "" + scriptControl.cantidadBolas;
@@ -62,6 +79,7 @@ public class ControlDeNivel : MonoBehaviour
         {
             Time.timeScale = 1f;
         }
+        
     }
 
 
