@@ -24,6 +24,8 @@ public class BolaAfilada : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+
+        colliderBola.isTrigger = false;
         if (col.gameObject.CompareTag("Bloque"))
         {
             /*
@@ -36,7 +38,7 @@ public class BolaAfilada : MonoBehaviour
             Destroy(bloqueRompiendo, 1f);
             Destroy(col.gameObject);
 
-            colliderBola.isTrigger = false;
+            
         }
     }
     private void OnCollisionEnter2D(Collision2D col)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ControlDeNivel : MonoBehaviour
 {
@@ -20,7 +21,12 @@ public class ControlDeNivel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        numeroBloques = GameObject.FindGameObjectsWithTag("Bloque").Length;
-        bloquesActuales.text = "" + numeroBloques;
+        
+        bloquesActuales.text = "" + GameObject.FindGameObjectsWithTag("Bloque").Length;
+        if(GameObject.FindGameObjectsWithTag("Bloque").Length == 0)
+        {
+            ControlDeJuego.nivel1Completo = true;
+            
+        }
     }
 }

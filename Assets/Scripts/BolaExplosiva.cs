@@ -9,6 +9,11 @@ public class BolaExplosiva : MonoBehaviour
     BoxCollider2D colliderExplosion;
     public float velocidad = 100;
 
+    public GameObject animBloqueRoto;
+    GameObject bloqueRompiendo;
+
+    int explosion = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,15 +31,26 @@ public class BolaExplosiva : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Bloque"))
         {
-            colliderExplosion.enabled = true;
+            
+            bloqueRompiendo = Instantiate(animBloqueRoto, col.transform.position, col.transform.rotation);
+            Destroy(bloqueRompiendo, 1f);
+            Destroy(col.gameObject);
+
+            if (explosion == 1)
+            {
+                colliderExplosion.enabled = true;
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Bloque"))
         {
+            bloqueRompiendo = Instantiate(animBloqueRoto, col.transform.position, col.transform.rotation);
+            Destroy(bloqueRompiendo, 1f);
             Destroy(col.gameObject);
             colliderExplosion.enabled = false;
+            --explosion;
         }
     }
 }

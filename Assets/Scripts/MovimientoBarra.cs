@@ -11,11 +11,12 @@ public class MovimientoBarra : MonoBehaviour
     public GameObject salidaBola;
     public List<GameObject> bolasLanzadas;
     public GameObject puntoApuntar;
-    public bool apuntando = true
-        ;
+    public bool apuntando = true;
     public float velocidad = 100;
     public float tiempoEntreBolas = 0.2f;
-    
+
+    public GameObject pj;
+    Animator pjAnimator;
 
     
     
@@ -24,7 +25,7 @@ public class MovimientoBarra : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        pjAnimator = pj.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,10 +34,12 @@ public class MovimientoBarra : MonoBehaviour
         if (bolasLanzadas.Count > 0)
         {
             apuntando = false;
+            pjAnimator.SetBool("apuntando", apuntando);
         }
         else
         {
             apuntando = true;
+            pjAnimator.SetBool("apuntando", apuntando);
         }
         
     }
@@ -62,23 +65,29 @@ public class MovimientoBarra : MonoBehaviour
         }
         if (col.gameObject.CompareTag("BolaDivisible"))
         {
-            bolasRecogidas.Add(2);
+            bolasRecogidas.Add(0);
+            bolasRecogidas.Add(0);
             Destroy(col.gameObject);
         }
 
+        if(bolasLanzadas.Count == 0)
+        {
+            bolasRecogidas.Add(0); 
+        }
 
     }
 
     IEnumerator LanzaBolas()
     {
         int cantidadBolas = bolasRecogidas.Count;
+        pjAnimator.SetTrigger("lanzamiento");
 
         for (int i = 0; i < cantidadBolas; i++)
         {
 
             GameObject nuevaBola;
             Rigidbody2D rbBola;
-            nuevaBola = Instantiate(prefabsBolas[bolasRecogidas[0]], salidaBola.transform.position, salidaBola.transform.rotation);
+            nuevaBola = Instantiate(prefabsBolas[bolasRecogidas[0]], salidaBola.transform.position, new Quaternion (0, 0, 0, salidaBola.transform.rotation.w));
             IgnorarColisionesEntreBolas(nuevaBola);
             bolasLanzadas.Add(nuevaBola);
 
@@ -89,7 +98,8 @@ public class MovimientoBarra : MonoBehaviour
 
         }
         apuntando = false;
-        
+        pjAnimator.SetBool("apuntando", apuntando);
+
     }
     void IgnorarColisionesEntreBolas(GameObject objNuevo)
     {
