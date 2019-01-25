@@ -8,6 +8,9 @@ public class BolaBasica : MonoBehaviour
     CircleCollider2D colliderBola;
     public float velocidad = 100;
 
+    public GameObject animBloqueRoto;
+    GameObject bloqueRompiendo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class BolaBasica : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Bloque"))
         {
+            bloqueRompiendo = Instantiate(animBloqueRoto, col.transform.position, col.transform.rotation);
+            Destroy(bloqueRompiendo, 1f);
             Destroy(col.gameObject);
         }
     }

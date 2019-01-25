@@ -10,15 +10,15 @@ public class ControlDeJuego : MonoBehaviour
     public static bool nivel2Completo = false;
     public static bool nivel3Completo = false;
 
-    public GameObject panelPausa;
-    Animator animPausa;
+    
 
-    public bool pausa = false;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        animPausa = panelPausa.GetComponent<Animator>();
+        
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -70,20 +70,7 @@ public class ControlDeJuego : MonoBehaviour
     }
 
     
-    public void MenuPausa()
-    {
-            pausa = !pausa;
-            animPausa.SetBool("visible", pausa);
-
-        if (pausa)
-        {
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            Time.timeScale = 1f;
-        }
-    }
+   
 
     public void SalirDelJuego()
     {
