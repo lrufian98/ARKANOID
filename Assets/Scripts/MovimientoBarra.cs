@@ -127,7 +127,7 @@ public class MovimientoBarra : MonoBehaviour
     {
         if (apuntando)
         {
-            StartCoroutine(LanzaBolas());
+            if(puntoApuntar.transform.position.y > salidaBola.transform.position.y) StartCoroutine(LanzaBolas());
         }
     }
 
