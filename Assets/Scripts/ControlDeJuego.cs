@@ -69,8 +69,11 @@ public class ControlDeJuego : MonoBehaviour
         }
     }
 
-    
-   
+    public void CargarCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
 
     public void SalirDelJuego()
     {

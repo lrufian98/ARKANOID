@@ -179,6 +179,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2697699495949782629, guid: 3fba584ca4228c94c8281fe366652f51,
+        type: 3}
+      propertyPath: scriptControl
+      value: 
+      objectReference: {fileID: 504547601}
     - target: {fileID: 2697699496278853498, guid: 3fba584ca4228c94c8281fe366652f51,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -213,6 +218,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CargarNivel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697699496760024776, guid: 3fba584ca4228c94c8281fe366652f51,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1221566976}
+    - target: {fileID: 2697699496760024776, guid: 3fba584ca4228c94c8281fe366652f51,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CargarCreditos
       objectReference: {fileID: 0}
     - target: {fileID: 2697699496616779579, guid: 3fba584ca4228c94c8281fe366652f51,
         type: 3}
@@ -760,6 +775,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef722271ab1a6e341b5da822d355a3a3, type: 3}
+--- !u!114 &504547601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5442989285603056722, guid: ef722271ab1a6e341b5da822d355a3a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 504547600}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756948b9a8709f3418419be727e70776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &525370300
 PrefabInstance:
   m_ObjectHideFlags: 0
