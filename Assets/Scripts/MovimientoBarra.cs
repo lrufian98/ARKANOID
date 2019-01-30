@@ -27,6 +27,9 @@ public class MovimientoBarra : MonoBehaviour
     void Start()
     {
         pjAnimator = pj.GetComponent<Animator>();
+        
+        
+
     }
 
     // Update is called once per frame
