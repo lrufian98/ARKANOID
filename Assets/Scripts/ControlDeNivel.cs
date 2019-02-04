@@ -49,15 +49,15 @@ public class ControlDeNivel : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().name == "Nivel_1")
             {
-                ControlDeJuego.nivel1Completo = true;
+                ControlDeJuego.MarcarNivel1ComoCompletado();
             }
             if(SceneManager.GetActiveScene().name == "Nivel_2")
             {
-                ControlDeJuego.nivel2Completo = true;
+                ControlDeJuego.MarcarNivel2ComoCompletado();
             }
             if(SceneManager.GetActiveScene().name == "Nivel_3")
             {
-                ControlDeJuego.nivel3Completo = true;
+                ControlDeJuego.MarcarNivel3ComoCompletado();
             }
             
             animCompletado.SetTrigger("NivelCompletado");

@@ -11,14 +11,19 @@ public class ControlDeJuego : MonoBehaviour
     public static bool nivel3Completo = false;
 
     
-
+    
     
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        nivel1Completo = (PlayerPrefs.GetInt("nivel1Completo") == 1);
+        nivel2Completo = (PlayerPrefs.GetInt("nivel2Completo") == 1);
+        nivel3Completo = (PlayerPrefs.GetInt("nivel3Completo") == 1);
+
         Time.timeScale = 1f;
+
+
     }
 
     // Update is called once per frame
@@ -80,6 +85,24 @@ public class ControlDeJuego : MonoBehaviour
         Application.Quit();
     }
 
+    public static void MarcarNivel1ComoCompletado()
+    {
+        nivel1Completo = true;
+        PlayerPrefs.SetInt("nivel1Completo", 1);
+        PlayerPrefs.Save();
+    }
+    public static void MarcarNivel2ComoCompletado()
+    {
+        nivel2Completo = true;
+        PlayerPrefs.SetInt("nivel2Completo", 1);
+        PlayerPrefs.Save();
+    }
+    public static void MarcarNivel3ComoCompletado()
+    {
+        nivel3Completo = true;
+        PlayerPrefs.SetInt("nivel3Completo", 1);
+        PlayerPrefs.Save();
+    }
 
 
 }
