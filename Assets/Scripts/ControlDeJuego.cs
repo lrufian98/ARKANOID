@@ -32,6 +32,10 @@ public class ControlDeJuego : MonoBehaviour
         
     }
 
+    public void CargarAyuda()
+    {
+        SceneManager.LoadScene("PantallaAyuda");
+    }
 
     public void CargarSeleccionDeNivel()
     {
@@ -49,6 +53,7 @@ public class ControlDeJuego : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
 
 
     public void CargarNivel1()
