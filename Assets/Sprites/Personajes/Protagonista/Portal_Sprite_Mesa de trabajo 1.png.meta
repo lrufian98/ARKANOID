@@ -126,10 +126,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 60
+        y: 1542
+        width: 694
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,7 +137,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5254d8f472e86d489d97fc386c1da65
+      spriteID: 06b6db48bebd3b74998854d4c0cab9c6
       vertices: []
       indices: 
       edges: []
@@ -146,10 +146,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_1
       rect:
         serializedVersion: 2
-        x: 797
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 859
+        y: 1542
+        width: 693
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 743fdf9ca3867494aa7ba52c25379a28
+      spriteID: e9dcbba2776e2fd4fb90ac2a8040ba74
       vertices: []
       indices: 
       edges: []
@@ -166,10 +166,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_2
       rect:
         serializedVersion: 2
-        x: 1594
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 1658
+        y: 1542
+        width: 693
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,7 +177,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3f6cccb1e8d144592035f9e2ff3190
+      spriteID: 7510b307e22bcf3409dbef06530b13da
       vertices: []
       indices: 
       edges: []
@@ -186,10 +186,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_3
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 2456
+        y: 1542
+        width: 691
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,7 +197,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fa247e55e189d4e9e5cb59a34cacad
+      spriteID: 4b655805bb72bc6428aa9592fb1990c5
       vertices: []
       indices: 
       edges: []
@@ -206,10 +206,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_4
       rect:
         serializedVersion: 2
-        x: 3188
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 3252
+        y: 1542
+        width: 694
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48482bbc5b83cea43af219a565040acd
+      spriteID: 849208a418acaf14f87e42be79e783a3
       vertices: []
       indices: 
       edges: []
@@ -226,10 +226,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_5
       rect:
         serializedVersion: 2
-        x: 3985
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 4051
+        y: 1542
+        width: 694
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,7 +237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a107fb57e47fd1e41b17ff6ba3eba986
+      spriteID: e7edc745b456fac40b810c2dd09e33d3
       vertices: []
       indices: 
       edges: []
@@ -246,10 +246,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_6
       rect:
         serializedVersion: 2
-        x: 4782
-        y: 1523.25
-        width: 797.5714
-        height: 507.75
+        x: 4850
+        y: 1542
+        width: 692
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,7 +257,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ae00f9588fc45e43a1b86cceb8c4e6d
+      spriteID: 5e125799f20f91d439bbcf703c343c33
       vertices: []
       indices: 
       edges: []
@@ -266,10 +266,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 60
+        y: 1002
+        width: 694
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579473703c29dbe448df3614aff27993
+      spriteID: d6f8ada3882d5da4ea2774f38d921dac
       vertices: []
       indices: 
       edges: []
@@ -286,10 +286,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_8
       rect:
         serializedVersion: 2
-        x: 797
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 859
+        y: 1002
+        width: 693
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,7 +297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96027d881280f794bb027b0b74aa436d
+      spriteID: 93b25b52b06e94d4183c19d41f62eb35
       vertices: []
       indices: 
       edges: []
@@ -306,10 +306,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_9
       rect:
         serializedVersion: 2
-        x: 1594
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 1658
+        y: 1002
+        width: 693
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,7 +317,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4550efb297cbd384d9f8b4665e48452a
+      spriteID: 9ee87f48fd9264746946553fd17ff518
       vertices: []
       indices: 
       edges: []
@@ -326,10 +326,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_10
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 2454
+        y: 1002
+        width: 693
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,7 +337,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d314a0dd414334d850bbef661bde46
+      spriteID: d1d2a37785d9e794ea0e4c3f258f6aff
       vertices: []
       indices: 
       edges: []
@@ -346,10 +346,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_11
       rect:
         serializedVersion: 2
-        x: 3188
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 3252
+        y: 1002
+        width: 694
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,7 +357,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b778fdcc3578bd4eb3dbc5de073dba1
+      spriteID: e0675cf3f457b684789f9b778c95326b
       vertices: []
       indices: 
       edges: []
@@ -366,10 +366,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_12
       rect:
         serializedVersion: 2
-        x: 3985
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 4051
+        y: 1002
+        width: 694
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,7 +377,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d66c62d7836c4a4eae025831d301ee7
+      spriteID: cafb912a00d263b43a13b6c1ed69abcc
       vertices: []
       indices: 
       edges: []
@@ -386,10 +386,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_13
       rect:
         serializedVersion: 2
-        x: 4782
-        y: 1016.25
-        width: 797.5714
-        height: 507.75
+        x: 4850
+        y: 1002
+        width: 692
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,7 +397,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b3fdae3eeceadf40a9b1a3bb0ed15a9
+      spriteID: 3070bfd779db72f4383cf69c4be54f52
       vertices: []
       indices: 
       edges: []
@@ -406,10 +406,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 60
+        y: 504
+        width: 694
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,7 +417,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26126c2b45c57a947b737b8431bce534
+      spriteID: 4b555fd380cfd4e459bbc6b3ebf68364
       vertices: []
       indices: 
       edges: []
@@ -426,10 +426,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_15
       rect:
         serializedVersion: 2
-        x: 797
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 859
+        y: 504
+        width: 693
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,7 +437,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91bae6ccc146dc2419df65e18a970fea
+      spriteID: 7186ead2721b29645ab0d7bc4b8fd8b6
       vertices: []
       indices: 
       edges: []
@@ -446,10 +446,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_16
       rect:
         serializedVersion: 2
-        x: 1594
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 1658
+        y: 504
+        width: 693
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,7 +457,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c29ddff247885745bab79bbbd44614f
+      spriteID: 0d956e8ef6e254f4799196499f94251b
       vertices: []
       indices: 
       edges: []
@@ -466,10 +466,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_17
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 2454
+        y: 504
+        width: 693
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,7 +477,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f5315ba34616b498f4735198cdf161
+      spriteID: 5f6dc7a1ff7543341aa90c735cd27461
       vertices: []
       indices: 
       edges: []
@@ -486,10 +486,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_18
       rect:
         serializedVersion: 2
-        x: 3188
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 3252
+        y: 504
+        width: 694
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,7 +497,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61dc59a9b947f4a4799c51d60224fe10
+      spriteID: d8164039127889f4dbc38e7867778398
       vertices: []
       indices: 
       edges: []
@@ -506,10 +506,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_19
       rect:
         serializedVersion: 2
-        x: 3985
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 4051
+        y: 504
+        width: 694
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,7 +517,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbee909cb55261947ad670bca29d7d56
+      spriteID: 4f11589df2b8fd5429a65027bd531854
       vertices: []
       indices: 
       edges: []
@@ -526,10 +526,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_20
       rect:
         serializedVersion: 2
-        x: 4782
-        y: 509.25
-        width: 797.5714
-        height: 507.75
+        x: 4847
+        y: 504
+        width: 695
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,7 +537,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a0042e385038a4da28c6321fb8272f
+      spriteID: 89a1211c615692e429a910caf94c5f3e
       vertices: []
       indices: 
       edges: []
@@ -546,10 +546,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2.25
-        width: 797.5714
-        height: 507.75
+        x: 60
+        y: 7
+        width: 694
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,7 +557,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac7687bf9b7a8f545853e41f112fd1ad
+      spriteID: e195736f6e215f040871da9bf571dd0b
       vertices: []
       indices: 
       edges: []
@@ -566,10 +566,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_22
       rect:
         serializedVersion: 2
-        x: 797
-        y: 2.25
-        width: 797.5714
-        height: 507.75
+        x: 859
+        y: 7
+        width: 693
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,7 +577,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13635929ae04f1e4fadd645c0aff3a9e
+      spriteID: 48254bf95b0b7cb4b85ec874dcb5b807
       vertices: []
       indices: 
       edges: []
@@ -586,10 +586,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_23
       rect:
         serializedVersion: 2
-        x: 1594
-        y: 2.25
-        width: 797.5714
-        height: 507.75
+        x: 1658
+        y: 7
+        width: 693
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,7 +597,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01b4900d1c570cb48aec7bf8b4a8e7b1
+      spriteID: 4ac7b44ebd0e4d748ac73895df15cc1d
       vertices: []
       indices: 
       edges: []
@@ -606,10 +606,10 @@ TextureImporter:
       name: Portal_Sprite_Mesa de trabajo 1_24
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 2.25
-        width: 797.5714
-        height: 507.75
+        x: 2454
+        y: 7
+        width: 693
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,67 +617,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69925fb321e212a43b0a651ab48d3a12
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portal_Sprite_Mesa de trabajo 1_25
-      rect:
-        serializedVersion: 2
-        x: 3188
-        y: 2.25
-        width: 797.5714
-        height: 507.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50b55fd0bcbaec44bbb74a4b520a4ce6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portal_Sprite_Mesa de trabajo 1_26
-      rect:
-        serializedVersion: 2
-        x: 3985
-        y: 2.25
-        width: 797.5714
-        height: 507.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3db19c1e33425fc46907b15e4ff440a7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portal_Sprite_Mesa de trabajo 1_27
-      rect:
-        serializedVersion: 2
-        x: 4782
-        y: 2.25
-        width: 797.5714
-        height: 507.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb20f4ffa7910e14183b8b6f08487110
+      spriteID: af09a00dc08bdfa4fb624dda1a16490f
       vertices: []
       indices: 
       edges: []
