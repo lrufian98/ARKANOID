@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MovimientoBarra : MonoBehaviour
 {
-
+    public AudioSource lanzaBola;
     public List<int> bolasRecogidas;
     public List<GameObject> prefabsBolas;
     public GameObject salidaBola;
@@ -27,8 +27,8 @@ public class MovimientoBarra : MonoBehaviour
     void Start()
     {
         pjAnimator = pj.GetComponent<Animator>();
-        
-        
+
+        lanzaBola = GetComponent<AudioSource>();
 
     }
 
@@ -131,6 +131,7 @@ public class MovimientoBarra : MonoBehaviour
         if (apuntando)
         {
             if(puntoApuntar.transform.position.y > salidaBola.transform.position.y) StartCoroutine(LanzaBolas());
+            lanzaBola.Play(0);
         }
     }
 

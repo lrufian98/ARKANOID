@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 71064b5a289a5e244811b182b40c96aa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Portal_Sprite_Mesa de trabajo 1_0
+    21300002: Portal_Sprite_Mesa de trabajo 1_1
+    21300004: Portal_Sprite_Mesa de trabajo 1_2
+    21300006: Portal_Sprite_Mesa de trabajo 1_3
+    21300008: Portal_Sprite_Mesa de trabajo 1_4
+    21300010: Portal_Sprite_Mesa de trabajo 1_5
+    21300012: Portal_Sprite_Mesa de trabajo 1_6
+    21300014: Portal_Sprite_Mesa de trabajo 1_7
+    21300016: Portal_Sprite_Mesa de trabajo 1_8
+    21300018: Portal_Sprite_Mesa de trabajo 1_9
+    21300020: Portal_Sprite_Mesa de trabajo 1_10
+    21300022: Portal_Sprite_Mesa de trabajo 1_11
+    21300024: Portal_Sprite_Mesa de trabajo 1_12
+    21300026: Portal_Sprite_Mesa de trabajo 1_13
+    21300028: Portal_Sprite_Mesa de trabajo 1_14
+    21300030: Portal_Sprite_Mesa de trabajo 1_15
+    21300032: Portal_Sprite_Mesa de trabajo 1_16
+    21300034: Portal_Sprite_Mesa de trabajo 1_17
+    21300036: Portal_Sprite_Mesa de trabajo 1_18
+    21300038: Portal_Sprite_Mesa de trabajo 1_19
+    21300040: Portal_Sprite_Mesa de trabajo 1_20
+    21300042: Portal_Sprite_Mesa de trabajo 1_21
+    21300044: Portal_Sprite_Mesa de trabajo 1_22
+    21300046: Portal_Sprite_Mesa de trabajo 1_23
+    21300048: Portal_Sprite_Mesa de trabajo 1_24
+    21300050: Portal_Sprite_Mesa de trabajo 1_25
+    21300052: Portal_Sprite_Mesa de trabajo 1_26
+    21300054: Portal_Sprite_Mesa de trabajo 1_27
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5254d8f472e86d489d97fc386c1da65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_1
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743fdf9ca3867494aa7ba52c25379a28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_2
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3f6cccb1e8d144592035f9e2ff3190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_3
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fa247e55e189d4e9e5cb59a34cacad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_4
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48482bbc5b83cea43af219a565040acd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_5
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a107fb57e47fd1e41b17ff6ba3eba986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_6
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 1523.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae00f9588fc45e43a1b86cceb8c4e6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579473703c29dbe448df3614aff27993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96027d881280f794bb027b0b74aa436d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_9
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4550efb297cbd384d9f8b4665e48452a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_10
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d314a0dd414334d850bbef661bde46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_11
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b778fdcc3578bd4eb3dbc5de073dba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_12
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d66c62d7836c4a4eae025831d301ee7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_13
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 1016.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3fdae3eeceadf40a9b1a3bb0ed15a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26126c2b45c57a947b737b8431bce534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_15
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bae6ccc146dc2419df65e18a970fea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_16
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c29ddff247885745bab79bbbd44614f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_17
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5315ba34616b498f4735198cdf161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_18
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc59a9b947f4a4799c51d60224fe10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_19
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbee909cb55261947ad670bca29d7d56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_20
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 509.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a0042e385038a4da28c6321fb8272f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7687bf9b7a8f545853e41f112fd1ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_22
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13635929ae04f1e4fadd645c0aff3a9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_23
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b4900d1c570cb48aec7bf8b4a8e7b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_24
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69925fb321e212a43b0a651ab48d3a12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_25
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b55fd0bcbaec44bbb74a4b520a4ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_26
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db19c1e33425fc46907b15e4ff440a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Sprite_Mesa de trabajo 1_27
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 2.25
+        width: 797.5714
+        height: 507.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb20f4ffa7910e14183b8b6f08487110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 48b1bfdfd10527a4e8e54c82ab3728ac
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
