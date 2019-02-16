@@ -105,6 +105,8 @@ public class MovimientoBarra : MonoBehaviour
         }
         apuntando = false;
         pjAnimator.SetBool("apuntando", apuntando);
+        puntoApuntar.transform.position = salidaBola.transform.position;
+
 
     }
     void IgnorarColisionesEntreBolas(GameObject objNuevo)

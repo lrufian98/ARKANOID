@@ -24,10 +24,22 @@ public class ControlDeNivel : MonoBehaviour
     public GameObject panelCompletado;
     Animator animCompletado;
 
+    public Image botonExplosiva;
+    public Image botonDivisible;
+    public Image botonAfilada;
+    public Sprite noExplosiva, noDivisible, noAfilada;
 
+
+    int timerInSeconds = 0;
+    float levelTimer = 0f;
+    bool updateTimer = false;
+    public Text textoTiempo;
+   
     // Start is called before the first frame update
     void Start()
     {
+        
+
         numeroBloques = GameObject.FindGameObjectsWithTag("Bloque").Length;
         bloquesTotales.text = ""+ numeroBloques;
         animPausa = panelPausa.GetComponent<Animator>();
@@ -38,12 +50,22 @@ public class ControlDeNivel : MonoBehaviour
         usoDivisible = 1;
 
         animCompletado = panelCompletado.GetComponent<Animator>();
+
+        updateTimer = true;
+        levelTimer = 0f;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (updateTimer)
+        {
+            levelTimer += Time.deltaTime * 1;
+        }
+        timerInSeconds = Mathf.RoundToInt(levelTimer);
+
+
         bloquesActuales.text = "" + GameObject.FindGameObjectsWithTag("Bloque").Length;
         if(GameObject.FindGameObjectsWithTag("Bloque").Length == 0)
         {
@@ -61,6 +83,8 @@ public class ControlDeNivel : MonoBehaviour
             }
             
             animCompletado.SetTrigger("NivelCompletado");
+            updateTimer = false;
+            textoTiempo.text = timerInSeconds.ToString() + "s";
         }
         
         bolasTotales.text = "" + scriptControl.cantidadBolas;
@@ -90,7 +114,8 @@ public class ControlDeNivel : MonoBehaviour
         {
             scriptControl.bolasRecogidas.Insert(0, 3);
             usoBotones--;
-            usoExplosiva--; 
+            usoExplosiva--;
+            botonExplosiva.sprite = noExplosiva;
         }
     }
   
@@ -101,6 +126,7 @@ public class ControlDeNivel : MonoBehaviour
             scriptControl.bolasRecogidas.Insert(0, 2);
             usoBotones--;
             usoDivisible--;
+            botonDivisible.sprite = noDivisible;
         }
     }
 
@@ -111,6 +137,7 @@ public class ControlDeNivel : MonoBehaviour
             scriptControl.bolasRecogidas.Insert(0, 1);
             usoBotones--;
             usoAfilada--;
+            botonAfilada.sprite = noAfilada;
         }
     }
 
@@ -140,5 +167,7 @@ public class ControlDeNivel : MonoBehaviour
             Destroy(col.gameObject);
         }
     }
+
+   
 
 }
