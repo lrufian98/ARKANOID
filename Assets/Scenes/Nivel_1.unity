@@ -3134,11 +3134,6 @@ PrefabInstance:
       propertyPath: scriptControl
       value: 
       objectReference: {fileID: 765254983}
-    - target: {fileID: 2697699496278853498, guid: 3fba584ca4228c94c8281fe366652f51,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2697699497351291932, guid: 3fba584ca4228c94c8281fe366652f51,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

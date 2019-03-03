@@ -35,6 +35,11 @@ public class ControlDeNivel : MonoBehaviour
     float levelTimer = 0f;
     bool updateTimer = false;
     public Text textoTiempo;
+    public static int mejorTiempoNivel1;
+    public static int mejorTiempoNivel2;
+    public static int mejorTiempoNivel3;
+    public Text textoMejorTiempo;
+
 
     // Start is called before the first frame update
     void Start()
@@ -90,6 +95,32 @@ public class ControlDeNivel : MonoBehaviour
             animCompletado.SetTrigger("NivelCompletado");
             updateTimer = false;
             textoTiempo.text = timerInSeconds.ToString() + "s";
+            if ( SceneManager.GetActiveScene().name == "Nivel_1")
+            {
+                if (mejorTiempoNivel1 == 0 || mejorTiempoNivel1 > timerInSeconds)
+                {
+                    mejorTiempoNivel1 = timerInSeconds;
+                }
+                textoMejorTiempo.text = mejorTiempoNivel1.ToString() + "s";
+            }
+            if (SceneManager.GetActiveScene().name == "Nivel_2")
+            {
+                if (mejorTiempoNivel2 == 0 || mejorTiempoNivel2 > timerInSeconds)
+                {
+                    mejorTiempoNivel2 = timerInSeconds;
+                }
+                textoMejorTiempo.text = mejorTiempoNivel2.ToString() + "s";
+
+            }
+            if (SceneManager.GetActiveScene().name == "Nivel_3")
+            {
+                if (mejorTiempoNivel3 == 0 || mejorTiempoNivel3 > timerInSeconds)
+                {
+                    mejorTiempoNivel3 = timerInSeconds;
+                }
+                textoMejorTiempo.text = mejorTiempoNivel3.ToString() + "s";
+
+            }
         }
 
         bolasTotales.text = "" + scriptControl.cantidadBolas;
