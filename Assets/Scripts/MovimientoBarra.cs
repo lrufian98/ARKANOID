@@ -11,6 +11,7 @@ public class MovimientoBarra : MonoBehaviour
     public GameObject salidaBola;
     public List<GameObject> bolasLanzadas;
     public GameObject puntoApuntar;
+    SpriteRenderer spritePuntoApuntar;
     public bool apuntando = true;
     public float velocidad = 100;
     public float tiempoEntreBolas = 0.2f;
@@ -30,6 +31,8 @@ public class MovimientoBarra : MonoBehaviour
 
         lanzaBola = GetComponent<AudioSource>();
 
+        spritePuntoApuntar = puntoApuntar.GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -45,6 +48,9 @@ public class MovimientoBarra : MonoBehaviour
             apuntando = true;
             pjAnimator.SetBool("apuntando", apuntando);
         }
+
+
+        spritePuntoApuntar.enabled = apuntando;
         
     }
 
