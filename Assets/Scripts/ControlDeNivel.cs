@@ -9,6 +9,7 @@ public class ControlDeNivel : MonoBehaviour
     public GameObject panelPausa;
     Animator animPausa;
     public bool pausa = false;
+    public Animator menuAyuda;
 
     public MovimientoBarra scriptControl;
     public Text bloquesTotales;
@@ -38,6 +39,10 @@ public class ControlDeNivel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (ControlDeJuego.nivel1Completo == false && SceneManager.GetActiveScene().name == "Nivel_1")
+        {
+            menuAyuda.SetBool("visible",true);
+        }
         
 
         numeroBloques = GameObject.FindGameObjectsWithTag("Bloque").Length;
@@ -104,6 +109,10 @@ public class ControlDeNivel : MonoBehaviour
             Time.timeScale = 1f;
         }
         
+    }
+     public void CerrarMenuAyuda()
+    {
+        menuAyuda.SetBool("visible",false);
     }
 
 
