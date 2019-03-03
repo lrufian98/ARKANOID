@@ -2118,6 +2118,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2000758619}
+    - target: {fileID: 2697699497471662443, guid: 3fba584ca4228c94c8281fe366652f51,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reiniciar
+      objectReference: {fileID: 0}
     - target: {fileID: 2697699496760024776, guid: 3fba584ca4228c94c8281fe366652f51,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2133,10 +2138,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2000758619}
-    - target: {fileID: 1909106458, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
-      propertyPath: AudioSource
-      value: 
-      objectReference: {fileID: 1626832578}
     - target: {fileID: 1909106457, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
       propertyPath: AudioSource
       value: 
@@ -2149,7 +2150,7 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 1626832578}
-    - target: {fileID: 1909106454, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
+    - target: {fileID: 1909106459, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 1626832578}
@@ -2157,19 +2158,23 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 1626832578}
-    - target: {fileID: 1909106452, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
-      propertyPath: AudioSource
-      value: 
-      objectReference: {fileID: 1626832578}
-    - target: {fileID: 1909106451, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
-      propertyPath: AudioSource
-      value: 
-      objectReference: {fileID: 1626832578}
     - target: {fileID: 1909106460, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 1626832578}
-    - target: {fileID: 1909106459, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
+    - target: {fileID: 1909106452, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
+      propertyPath: AudioSource
+      value: 
+      objectReference: {fileID: 1626832578}
+    - target: {fileID: 1909106458, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
+      propertyPath: AudioSource
+      value: 
+      objectReference: {fileID: 1626832578}
+    - target: {fileID: 1909106454, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
+      propertyPath: AudioSource
+      value: 
+      objectReference: {fileID: 1626832578}
+    - target: {fileID: 1909106451, guid: 3fba584ca4228c94c8281fe366652f51, type: 3}
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 1626832578}

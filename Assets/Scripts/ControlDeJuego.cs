@@ -48,6 +48,11 @@ public class ControlDeJuego : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 
     public void CargarAjustes()
     {
