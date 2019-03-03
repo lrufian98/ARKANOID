@@ -35,18 +35,18 @@ public class ControlDeNivel : MonoBehaviour
     float levelTimer = 0f;
     bool updateTimer = false;
     public Text textoTiempo;
-   
+
     // Start is called before the first frame update
     void Start()
     {
         if (ControlDeJuego.nivel1Completo == false && SceneManager.GetActiveScene().name == "Nivel_1")
         {
-            menuAyuda.SetBool("visible",true);
+            menuAyuda.SetBool("visible", true);
         }
-        
+
 
         numeroBloques = GameObject.FindGameObjectsWithTag("Bloque").Length;
-        bloquesTotales.text = ""+ numeroBloques;
+        bloquesTotales.text = "" + numeroBloques;
         animPausa = panelPausa.GetComponent<Animator>();
 
         usoBotones = 1;
@@ -72,26 +72,26 @@ public class ControlDeNivel : MonoBehaviour
 
 
         bloquesActuales.text = "" + GameObject.FindGameObjectsWithTag("Bloque").Length;
-        if(GameObject.FindGameObjectsWithTag("Bloque").Length == 0)
+        if (GameObject.FindGameObjectsWithTag("Bloque").Length == 0)
         {
             if (SceneManager.GetActiveScene().name == "Nivel_1")
             {
                 ControlDeJuego.MarcarNivel1ComoCompletado();
             }
-            if(SceneManager.GetActiveScene().name == "Nivel_2")
+            if (SceneManager.GetActiveScene().name == "Nivel_2")
             {
                 ControlDeJuego.MarcarNivel2ComoCompletado();
             }
-            if(SceneManager.GetActiveScene().name == "Nivel_3")
+            if (SceneManager.GetActiveScene().name == "Nivel_3")
             {
                 ControlDeJuego.MarcarNivel3ComoCompletado();
             }
-            
+
             animCompletado.SetTrigger("NivelCompletado");
             updateTimer = false;
             textoTiempo.text = timerInSeconds.ToString() + "s";
         }
-        
+
         bolasTotales.text = "" + scriptControl.cantidadBolas;
     }
 
@@ -108,12 +108,18 @@ public class ControlDeNivel : MonoBehaviour
         {
             Time.timeScale = 1f;
         }
-        
+
     }
-     public void CerrarMenuAyuda()
+    public void CerrarMenuAyuda()
     {
-        menuAyuda.SetBool("visible",false);
+        menuAyuda.SetBool("visible", false);
     }
+
+    public void AbrirMenuAyuda()
+    {
+        menuAyuda.SetBool("visible", true);
+    }
+
 
 
     public void AnadirExplosiva()
