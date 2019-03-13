@@ -32,11 +32,11 @@ public class GestionBanderas : MonoBehaviour
     {
         if (ControlDeJuego.nivel1Completo)
         {
-            xNivel2.color = new Color(0, 0, 0, 0);
+            xNivel2.enabled = false;
         }
         if (ControlDeJuego.nivel2Completo)
         {
-            xNivel3.color = new Color(0, 0, 0, 0);
+            xNivel3.enabled = false;
         }
 
         bM1.enabled = ControlDeJuego.nivel1Completo;
