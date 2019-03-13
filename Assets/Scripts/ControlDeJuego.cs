@@ -74,6 +74,11 @@ public class ControlDeJuego : MonoBehaviour
         SceneManager.LoadScene("Creditos");
     }
 
+    public void CargarNivelOculto()
+    {
+        SceneManager.LoadScene("Nivel_Oculto");
+
+    }
 
     public void SalirDelJuego()
     {
